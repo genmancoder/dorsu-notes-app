@@ -1,4 +1,4 @@
-![alt text](https://github.com/genmancoder/dorsu-notes-app/blob/master/src/images/dorsunotes.png)
+![alt text](https://github.com/genmancoder/dorsu-notes-app/blob/master/src/images/dorsunotesdark.png)
 
 # DORSU Notes
 
