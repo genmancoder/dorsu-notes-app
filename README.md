@@ -2,27 +2,28 @@
 
 # DORSU Notes
 
-This tool will let you save your most commonly used snippets or fragments of code from different programming languages. 
+This tool will let you save your notes and to-do list. 
 
-Note: This is an early version of Snippex and there should be bugs and features to improved/implemented/included in this tool. Please feel free to ask questions.
+Note: This is an early version of DORSU Notes and there should be bugs and features to improved/implemented/included in this tool. Please feel free to ask questions.
+
+You can also request features you want to be included in the next update.
 
 ## Features
-- Register to Firebase database
+- Register
 - Login
-- Create new snippets
-- Create folder
-- Search snippets
-- View snippets
-- View snippets by folder
-- View snippets by tags
+- Create new note
+- Add description
+- Add to-do list
+- Add labels
+- Move note to trash
+- Move note to archive section
 
 ## Features to be implemented soon:
-- Share snippets to social media platform
-- Editing of snippets
-- Editing of Folder names
-- Delete folders
-- Delete snippets
-- View raw code
+- Dark / Light Theme
+- Add image to note
+- Add color to note
+- Add folder
+- Add project site.
 
 
 # Getting Started with Create React App
