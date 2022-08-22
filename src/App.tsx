@@ -1,12 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-    Simple React Typescript Tailwind Sample
-  </h1>
+    <>
+      <header>
+      <nav className="flex flex-col md:flex-row justify-between items-center bg-blue-400 text-white px-20 md:h-12">
+          <h1>DORSU Notes</h1>
+          
+          <ul id="mobile-menu" className="flex flex-col md:flex-row md:flex justify-between items-center w-56 sm:w-auto">
+            <a href="#">
+              <li>Link</li>
+            </a>
+            <a href="#" >
+              <li>Link</li>
+            </a>
+            <a href="#" >
+              <li>Link</li>
+            </a>
+          </ul>
+      </nav>
+
+      </header>
+    </>
   );
 }
 
