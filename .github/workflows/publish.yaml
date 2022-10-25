@@ -15,8 +15,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: yarn
-    - run: yarn run build
+    - run: npm
+    - run: npm run build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
