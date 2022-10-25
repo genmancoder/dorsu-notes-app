@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '/images/rassey8.jpg'
+
 const Developers = () => {
   return (
     <div className='container mx-auto p-5'>
