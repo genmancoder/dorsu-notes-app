@@ -5,9 +5,11 @@ const Developers = () => {
     <div className='container mx-auto p-5'>
         <h1>Developers</h1>
         <div className='p-5 m-5 grid grid-cols-6'>            
-                {/* Add your profile here. You can upload your image to the repo under "images"  directory
-                    and link it here.                
-                */}
+                <div className="w-64 sm:w-64 px-4">
+                        <img src="https://avatars.githubusercontent.com/u/111970096?v=4" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+                    </div>
+                    <h4 className='font-bold mr-1'>Glydene Gudes, </h4>
+                    <p className='font-thin italic'>Developer</p>
 
 
                 {/* grid item */}
