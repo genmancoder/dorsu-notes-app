@@ -1,28 +1,29 @@
 import React from 'react';
 
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
 import './App.css';
+import Header from './components/Header';
+import About from './pages/About';
+import Developers from './pages/Developers';
+import Home from './pages/Home';
 
 function App() {
   return (
     <>
-      <header>
-      <nav className="flex flex-col md:flex-row justify-between items-center bg-blue-400 text-white px-20 md:h-12">
-          <h1>DORSU Notes - Dev Version.</h1>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path='/' element={<Home/>}>
+          </Route>
+          <Route path='/developers' element={<Developers/>}>
+          </Route>
+          <Route path='/about' element={<About/>}>
+          </Route>
+        </Routes>
           
-          <ul id="mobile-menu" className="flex flex-col md:flex-row md:flex justify-between items-center w-56 sm:w-auto">
-            <a href="#">
-              <li>Link</li>
-            </a>
-            <a href="#" >
-              <li>Link</li>
-            </a>
-            <a href="#" >
-              <li>Link</li>
-            </a>
-          </ul>
-      </nav>
-
-      </header>
+          
+      </BrowserRouter>
     </>
   );
 }
