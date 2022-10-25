@@ -7,7 +7,7 @@ const Developers = () => {
         <div className='p-5 m-5 grid grid-cols-6'>            
                 {/* Add your profile here. You can upload your image to the repo under "images"  directory
                     and link it here.                
-                */}
+                */} 
           
                <img src="images\jules.jpg" width="100" height="100">
 
