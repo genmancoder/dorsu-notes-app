@@ -6,15 +6,7 @@ const Developers = () => {
         <h1>Developers</h1>
         <div className='p-5 m-5 grid grid-cols-6'>   
              <div className="flex flex-wrap justify-center">
-              
-               <div className="w-64 sm:w-64 px-4">
-                        <img src="MANLUPIG.png" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
-                    </div>
-                    <h3 className='font-bold mr-1'>Jan Russel S. Manlupig, </h3>
-                    <p className='font-thin italic'>A Student Developer</p>
-                </div>
-         
-
+        
                 {/* grid item */}
                 <div className="flex flex-wrap justify-center">
                     <div className="w-64 sm:w-64 px-4">
