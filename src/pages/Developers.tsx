@@ -13,7 +13,6 @@ const Developers = () => {
                          <img src="https://web.facebook.com/photo/?fbid=1800057350143102&set=a.101057293376458" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
                         
                          </div>
-
                          <h3 className='font-bold mr-1'>Rassey L. Perez, </h3>
                          <p className='font-thin italic'>Student Developer</p>
                       </div>
