@@ -17,7 +17,15 @@ const Developers = () => {
                     </div>
                     <h3 className='font-bold mr-1'>Rassey L. Perez, </h3>
                     <p className='font-thin italic'>Php Developer</p>
-                </div>           
+                </div>
+          
+                <div className="flex flex-wrap justify-center">
+                    <div className="w-64 sm:w-64 px-4">
+                        <img src="dorsu-notes-app/src/pages/GUITGUITIN.jpg" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+                    </div>
+                    <h3 className='font-bold mr-1'>Neilwin Guitguitin, </h3>
+                    <p className='font-thin italic'>Junior Developer</p>
+                </div>
                 {/* grid item */}               
                
 
