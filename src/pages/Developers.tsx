@@ -18,8 +18,6 @@ const Developers = () => {
                     </div>
                     <h3>Ivan P. Dawang</h3>
                     <p>Web Developer</p>
-                    <h3 className='font-bold mr-1'>Rassey L. Perez, </h3>
-                    <p className='font-thin italic'>Php Developer</p>
                 </div>           
                 {/* grid item */}               
                
