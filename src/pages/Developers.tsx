@@ -8,7 +8,13 @@ const Developers = () => {
                 {/* Add your profile here. You can upload your image to the repo under "images"  directory
                     and link it here.                
                 */}
-
+                  <div className="flex flex-wrap justify-center">
+                    <div className="w-64 sm:w-64 px-4">
+                      <img src="https://avatars.githubusercontent.com/u/112953802?s=400&u=7636edfc7a41e96a8689111d320fb48928a1cbd3&v=4" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+                    </div>
+                    <h3 className='font-bold mr-1'>Sitti Mariam Macabuat, </h3>
+                    <p className='font-thin italic'>Student Developer</p>
+                </div> 
 
                 {/* grid item */}
                 <div className="flex flex-wrap justify-center">
