@@ -16,7 +16,6 @@ const Developers = () => {
           <p className='font-thin italic'>Developer</p>
         </div>
 
-
         {/* grid item */}
         <div className="flex flex-wrap justify-center">
           <div className="w-64 sm:w-64 px-4">
